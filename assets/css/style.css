@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(254,71,57,255);
+}
+
+.container {
+    margin-inline: auto;
+    max-width: 768px;
+    color: black;
+}
+
+.banner {
+    width: 100%;
+    margin-inline: auto;
+}
+
+nav {
+    background-color: rgb(254,71,57,255);
+    border: 2px solid black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    background-color: gray;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-decoration: none;
+    width: 220px;
+    transition: all 1s;
+}
+
+.btn:hover {
+    background-color: red;
+    width: 320px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
